@@ -2,7 +2,9 @@
 
 # CLI Command 
 ```
-eb create --database --elb-type application --instance-type t2.micro
+$ eb create --database --elb-type application --instance-type t2.micro
+
+$ eb init TodoApplication-backend
 ```
 
 # Reference
