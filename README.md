@@ -2,9 +2,18 @@
 
 # CLI Command 
 ```
-$ eb create --database --elb-type application --instance-type t2.micro
+deploy:
+  artifact: build/libs/demo-0.0.1-SNAPSHOT.jar
+
+PROD-TODO-BACKEND
+
+gradlew build
 
 $ eb init TodoApplication-backend
+
+$ eb create --database --elb-type application --instance-type t2.micro
+
+$ eb setenv SPRING_PROFILES_ACTIVE=prod
 ```
 
 # Reference
