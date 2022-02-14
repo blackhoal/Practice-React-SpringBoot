@@ -14,6 +14,14 @@ $ eb init TodoApplication-backend
 $ eb create --database --elb-type application --instance-type t2.micro
 
 $ eb setenv SPRING_PROFILES_ACTIVE=prod
+
+$ eb init TodoApplication-frontend
+
+$ npm run build
+
+$ eb create --elb-type application --instance-type t2.micro 28s
+
+PROD-TODO-FRONTEND
 ```
 
 # Reference
