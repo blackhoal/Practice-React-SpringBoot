@@ -22,6 +22,10 @@ $ npm run build
 $ eb create --elb-type application --instance-type t2.micro 28s
 
 PROD-TODO-FRONTEND
+
+gradlew clean && gradlew build
+
+$ eb deploy
 ```
 
 # Reference
