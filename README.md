@@ -39,7 +39,6 @@ $ setfacl -R -m u:ec2-user:rwx node_modules
 
 $ sudo service nginx restart
 
-
 ```
 
 # Reference
