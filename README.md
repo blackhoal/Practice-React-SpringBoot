@@ -1,8 +1,5 @@
 # Skills
 
-
-
-
 # CLI Command 
 ```
 
